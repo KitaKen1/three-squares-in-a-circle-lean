@@ -1,0 +1,21 @@
+{
+  "name": "ThreeSquares/Compressed/Domains",
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "-M6144",
+    "-R",
+    "/Users/kenta/Dropbox/Intellectual Moonshine/?AI\u6570\u5b66/wiki square paking min3/research/compressed-20260924",
+    "-o",
+    "/Users/kenta/Dropbox/Intellectual Moonshine/?AI\u6570\u5b66/wiki square paking min3/lean/.lake/build/lib/lean/ThreeSquares/Compressed/Domains.olean",
+    "/Users/kenta/Dropbox/Intellectual Moonshine/?AI\u6570\u5b66/wiki square paking min3/research/compressed-20260924/ThreeSquares/Compressed/Domains.lean"
+  ],
+  "threads": 1,
+  "exit": 0,
+  "timed_out": false,
+  "wall_seconds": 13.245,
+  "max_rss_bytes": 6148718592,
+  "source_sha256": "122fb9301cf97e4785dca2e6724d6c8321ff21aaf3ea57d70d3950b2d3b05842",
+  "log": "Domains.log"
+}

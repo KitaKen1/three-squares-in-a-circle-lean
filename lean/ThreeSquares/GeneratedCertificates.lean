@@ -1,0 +1,12 @@
+import ThreeSquares.GeneratedCertificates.Subcritical3
+import ThreeSquares.GeneratedCertificates.Subcritical5
+import ThreeSquares.GeneratedCertificates.Subcritical7
+import ThreeSquares.GeneratedCertificates.Contact5
+import ThreeSquares.GeneratedCertificates.Contact8
+import ThreeSquares.GeneratedCertificates.Rotated6
+import ThreeSquares.GeneratedCertificates.RotatedOverlap6
+import ThreeSquares.GeneratedCertificates.Initial6
+import ThreeSquares.GeneratedCertificates.Contracted6
+import ThreeSquares.GeneratedCertificates.Strengthened6
+import ThreeSquares.GeneratedCertificates.Focused6
+import ThreeSquares.GeneratedCertificates.Focused8

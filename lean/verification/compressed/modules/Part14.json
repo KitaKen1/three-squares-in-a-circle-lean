@@ -1,0 +1,21 @@
+{
+  "name": "ThreeSquares/Compressed/Part14",
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "-M6144",
+    "-R",
+    "/Users/kenta/Dropbox/Intellectual Moonshine/?AI\u6570\u5b66/wiki square paking min3/research/compressed-20260924",
+    "-o",
+    "/Users/kenta/Dropbox/Intellectual Moonshine/?AI\u6570\u5b66/wiki square paking min3/lean/.lake/build/lib/lean/ThreeSquares/Compressed/Part14.olean",
+    "/Users/kenta/Dropbox/Intellectual Moonshine/?AI\u6570\u5b66/wiki square paking min3/research/compressed-20260924/ThreeSquares/Compressed/Part14.lean"
+  ],
+  "threads": 1,
+  "exit": 0,
+  "timed_out": false,
+  "wall_seconds": 33.659,
+  "max_rss_bytes": 6289391616,
+  "source_sha256": "1c484e965c2d0ea3a61322ec786ab9d8ebf2d0a007862b21098db52ff16ed54c",
+  "log": "Part14.log"
+}

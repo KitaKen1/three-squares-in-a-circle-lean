@@ -1,0 +1,4 @@
+'ThreeSquares.CenterElimination.Compressed.Case008.excludes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThreeSquares.CenterElimination.Compressed.Case009.excludes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThreeSquares.CenterElimination.Compressed.Case010.excludes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThreeSquares.CenterElimination.Compressed.Case011.excludes' depends on axioms: [propext, Classical.choice, Quot.sound]

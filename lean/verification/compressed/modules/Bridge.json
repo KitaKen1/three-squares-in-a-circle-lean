@@ -1,0 +1,21 @@
+{
+  "name": "ThreeSquares/Compressed/Bridge",
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "-M6144",
+    "-R",
+    "/Users/kenta/Dropbox/Intellectual Moonshine/?AI\u6570\u5b66/wiki square paking min3/research/compressed-20260924",
+    "-o",
+    "/Users/kenta/Dropbox/Intellectual Moonshine/?AI\u6570\u5b66/wiki square paking min3/lean/.lake/build/lib/lean/ThreeSquares/Compressed/Bridge.olean",
+    "/Users/kenta/Dropbox/Intellectual Moonshine/?AI\u6570\u5b66/wiki square paking min3/research/compressed-20260924/ThreeSquares/Compressed/Bridge.lean"
+  ],
+  "threads": 1,
+  "exit": 0,
+  "timed_out": false,
+  "wall_seconds": 47.036,
+  "max_rss_bytes": 6177636352,
+  "source_sha256": "b5e23e289d3c512038f87bd737c500a1ab23045d5d8f373932d980f6d50f9c14",
+  "log": "Bridge.log"
+}

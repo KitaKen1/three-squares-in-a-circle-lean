@@ -1,0 +1,101 @@
+'ThreeSquares.CenterElimination.Certificate.lowerBound_lt_of_realizes' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ThreeSquares.CenterElimination.Compressed.certificate_excludes' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ThreeSquares.CenterElimination.Compressed.Triangle.nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThreeSquares.CenterElimination.Compressed.triangle_nonnegative_of_coefficients' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ThreeSquares.CenterElimination.Compressed.global_lower_bound_of_excludes' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ThreeSquares.CenterElimination.Compressed.Case000.excludes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThreeSquares.CenterElimination.Compressed.Case001.excludes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThreeSquares.CenterElimination.Compressed.Case002.excludes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThreeSquares.CenterElimination.Compressed.Case003.excludes' depends on axioms: [propext, Classical.choice, Quot.sound]
+Compressed certificate group 1/16 complete; final audit still required.
+'ThreeSquares.CenterElimination.Compressed.Case008.excludes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThreeSquares.CenterElimination.Compressed.Case009.excludes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThreeSquares.CenterElimination.Compressed.Case010.excludes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThreeSquares.CenterElimination.Compressed.Case011.excludes' depends on axioms: [propext, Classical.choice, Quot.sound]
+Compressed certificate group 2/16 complete; final audit still required.
+'ThreeSquares.CenterElimination.Compressed.Case032.excludes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThreeSquares.CenterElimination.Compressed.Case033.excludes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThreeSquares.CenterElimination.Compressed.Case034.excludes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThreeSquares.CenterElimination.Compressed.Case035.excludes' depends on axioms: [propext, Classical.choice, Quot.sound]
+Compressed certificate group 3/16 complete; final audit still required.
+'ThreeSquares.CenterElimination.Compressed.Case040.excludes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThreeSquares.CenterElimination.Compressed.Case041.excludes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThreeSquares.CenterElimination.Compressed.Case042.excludes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThreeSquares.CenterElimination.Compressed.Case043.excludes' depends on axioms: [propext, Classical.choice, Quot.sound]
+Compressed certificate group 4/16 complete; final audit still required.
+'ThreeSquares.CenterElimination.Compressed.Case064.excludes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThreeSquares.CenterElimination.Compressed.Case065.excludes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThreeSquares.CenterElimination.Compressed.Case066.excludes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThreeSquares.CenterElimination.Compressed.Case067.excludes' depends on axioms: [propext, Classical.choice, Quot.sound]
+Compressed certificate group 5/16 complete; final audit still required.
+'ThreeSquares.CenterElimination.Compressed.Case072.excludes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThreeSquares.CenterElimination.Compressed.Case073.excludes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThreeSquares.CenterElimination.Compressed.Case074.excludes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThreeSquares.CenterElimination.Compressed.Case075.excludes' depends on axioms: [propext, Classical.choice, Quot.sound]
+Compressed certificate group 6/16 complete; final audit still required.
+'ThreeSquares.CenterElimination.Compressed.Case080.excludes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThreeSquares.CenterElimination.Compressed.Case081.excludes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThreeSquares.CenterElimination.Compressed.Case082.excludes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThreeSquares.CenterElimination.Compressed.Case083.excludes' depends on axioms: [propext, Classical.choice, Quot.sound]
+Compressed certificate group 7/16 complete; final audit still required.
+'ThreeSquares.CenterElimination.Compressed.Case088.excludes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThreeSquares.CenterElimination.Compressed.Case089.excludes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThreeSquares.CenterElimination.Compressed.Case090.excludes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThreeSquares.CenterElimination.Compressed.Case091.excludes' depends on axioms: [propext, Classical.choice, Quot.sound]
+Compressed certificate group 8/16 complete; final audit still required.
+'ThreeSquares.CenterElimination.Compressed.Case096.excludes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThreeSquares.CenterElimination.Compressed.Case097.excludes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThreeSquares.CenterElimination.Compressed.Case098.excludes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThreeSquares.CenterElimination.Compressed.Case099.excludes' depends on axioms: [propext, Classical.choice, Quot.sound]
+Compressed certificate group 9/16 complete; final audit still required.
+'ThreeSquares.CenterElimination.Compressed.Case104.excludes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThreeSquares.CenterElimination.Compressed.Case105.excludes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThreeSquares.CenterElimination.Compressed.Case106.excludes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThreeSquares.CenterElimination.Compressed.Case107.excludes' depends on axioms: [propext, Classical.choice, Quot.sound]
+Compressed certificate group 10/16 complete; final audit still required.
+'ThreeSquares.CenterElimination.Compressed.Case112.excludes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThreeSquares.CenterElimination.Compressed.Case113.excludes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThreeSquares.CenterElimination.Compressed.Case114.excludes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThreeSquares.CenterElimination.Compressed.Case115.excludes' depends on axioms: [propext, Classical.choice, Quot.sound]
+Compressed certificate group 11/16 complete; final audit still required.
+'ThreeSquares.CenterElimination.Compressed.Case120.excludes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThreeSquares.CenterElimination.Compressed.Case121.excludes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThreeSquares.CenterElimination.Compressed.Case122.excludes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThreeSquares.CenterElimination.Compressed.Case123.excludes' depends on axioms: [propext, Classical.choice, Quot.sound]
+Compressed certificate group 12/16 complete; final audit still required.
+'ThreeSquares.CenterElimination.Compressed.Case320.excludes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThreeSquares.CenterElimination.Compressed.Case321.excludes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThreeSquares.CenterElimination.Compressed.Case322.excludes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThreeSquares.CenterElimination.Compressed.Case323.excludes' depends on axioms: [propext, Classical.choice, Quot.sound]
+Compressed certificate group 13/16 complete; final audit still required.
+'ThreeSquares.CenterElimination.Compressed.Case328.excludes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThreeSquares.CenterElimination.Compressed.Case329.excludes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThreeSquares.CenterElimination.Compressed.Case330.excludes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThreeSquares.CenterElimination.Compressed.Case331.excludes' depends on axioms: [propext, Classical.choice, Quot.sound]
+Compressed certificate group 14/16 complete; final audit still required.
+'ThreeSquares.CenterElimination.Compressed.Case352.excludes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThreeSquares.CenterElimination.Compressed.Case353.excludes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThreeSquares.CenterElimination.Compressed.Case354.excludes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThreeSquares.CenterElimination.Compressed.Case355.excludes' depends on axioms: [propext, Classical.choice, Quot.sound]
+Compressed certificate group 15/16 complete; final audit still required.
+'ThreeSquares.CenterElimination.Compressed.Case360.excludes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThreeSquares.CenterElimination.Compressed.Case361.excludes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThreeSquares.CenterElimination.Compressed.Case362.excludes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThreeSquares.CenterElimination.Compressed.Case363.excludes' depends on axioms: [propext, Classical.choice, Quot.sound]
+Compressed certificate group 16/16 complete; final audit still required.
+ThreeSquares.CenterElimination.Compressed.least_three_square_packing_in_circle :
+  IsLeast {r | Nonempty (Packing 3 UnitSquare (Circle r))} (5 * NNReal.sqrt 17 / 16)
+'ThreeSquares.CenterElimination.Compressed.global_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ThreeSquares.CenterElimination.Compressed.least_three_square_packing_in_circle' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

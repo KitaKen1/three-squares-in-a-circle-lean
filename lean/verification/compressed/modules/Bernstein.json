@@ -1,0 +1,21 @@
+{
+  "name": "ThreeSquares/Compressed/Bernstein",
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "-M6144",
+    "-R",
+    "/Users/kenta/Dropbox/Intellectual Moonshine/?AI\u6570\u5b66/wiki square paking min3/research/compressed-20260924",
+    "-o",
+    "/Users/kenta/Dropbox/Intellectual Moonshine/?AI\u6570\u5b66/wiki square paking min3/lean/.lake/build/lib/lean/ThreeSquares/Compressed/Bernstein.olean",
+    "/Users/kenta/Dropbox/Intellectual Moonshine/?AI\u6570\u5b66/wiki square paking min3/research/compressed-20260924/ThreeSquares/Compressed/Bernstein.lean"
+  ],
+  "threads": 1,
+  "exit": 0,
+  "timed_out": false,
+  "wall_seconds": 41.387,
+  "max_rss_bytes": 6377537536,
+  "source_sha256": "66162d04f234e53018ad40ebb3bb1c521977b1501d87847636d75889e6847e49",
+  "log": "Bernstein.log"
+}

@@ -1,0 +1,17 @@
+{
+  "name": "CompressedIntegration",
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "-M6144",
+    "/Users/kenta/Dropbox/Intellectual Moonshine/?AI\u6570\u5b66/wiki square paking min3/research/compressed-20260924/CompressedIntegration.lean"
+  ],
+  "threads": 1,
+  "exit": 0,
+  "timed_out": false,
+  "wall_seconds": 12.721,
+  "max_rss_bytes": 6101024768,
+  "source_sha256": "4ad878e6a09b5666890fa774b46b994ad93e074f2b7c7032cedda1c56fc58b44",
+  "log": "CompressedIntegration.log"
+}

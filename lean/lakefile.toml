@@ -1,0 +1,19 @@
+name = "three_squares"
+version = "0.1.0"
+defaultTargets = ["ThreeSquares"]
+
+[leanOptions]
+autoImplicit = false
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+rev = "v4.33.1"
+
+[[require]]
+name = "formal_conjectures"
+git = "https://github.com/google-deepmind/formal-conjectures"
+rev = "8927a585c5d522fc132d7ea6488fcd9e30ccd80e"
+
+[[lean_lib]]
+name = "ThreeSquares"

@@ -1,0 +1,47 @@
+{
+  "observation_date_jst": "2026-09-24",
+  "browser": "Lean4Web",
+  "browser_toolchain_shown": "Lean v4.35.0-rc2",
+  "user_report": "通った",
+  "final_checkpoint_shown": "Compressed certificate group 16/16 complete; final audit still required.",
+  "final_theorem_type_shown": "IsLeast {r | Nonempty (Packing 3 UnitSquare (Circle r))} (5 * NNReal.sqrt 17 / 16)",
+  "final_theorem_name_shown": "ThreeSquares.CenterElimination.Compressed.least_three_square_packing_in_circle",
+  "final_axioms_shown": {
+    "global_lower_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "least_three_square_packing_in_circle": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "local_generated_source_sha256": "755860602dd34d95bcb906b83a73b30a35990d3ece1424ec34b06837e3447807",
+  "browser_buffer_sha256_captured": false,
+  "complete_browser_diagnostic_log_exported": false,
+  "evidence_kind": "User report and screenshots showing final #check and two #print axioms outputs; source lines 39119–39129 match the generated candidate.",
+  "images": [
+    {
+      "time_jst": "7.43.19",
+      "path": "browser-evidence/2026-09-24-74319.png",
+      "sha256": "b2803ba7c41049b1f537c78a8549d0a9f5988c0accdaeca5ddcb62e3aabdf193"
+    },
+    {
+      "time_jst": "7.44.54",
+      "path": "browser-evidence/2026-09-24-74454.png",
+      "sha256": "820d2c496220a433b0e170f1ee8f0bf2bd356441693611fecbbcb2ac350f42ee"
+    },
+    {
+      "time_jst": "7.46.17",
+      "path": "browser-evidence/2026-09-24-74617.png",
+      "sha256": "54bdfad807bcc4c77ff65b3feb146174a2d7fbc0aef4263baa46b1699c8e4471"
+    },
+    {
+      "time_jst": "7.47.01",
+      "path": "browser-evidence/2026-09-24-74701.png",
+      "sha256": "3c9c7f8fd9913e31034071abdd373afc63f04fc3c257e17480a32bbbb61785e7"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+/Users/kenta/Dropbox/Intellectual Moonshine/?AI数学/wiki square paking min3/research/compressed-20260924/ThreeSquares/Compressed/Domains.lean:5:0: warning: This file has no module docstring (`/-! ... -/`). Add one after the imports to document the file.
+
+Note: This linter can be disabled with `set_option linter.style.moduleDocstring false`
+'ThreeSquares.CenterElimination.Compressed.global_lower_bound_of_excludes' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

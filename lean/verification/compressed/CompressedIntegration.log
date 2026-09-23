@@ -1,0 +1,13 @@
+Upstream definition: SquarePacking.Square from FormalConjectures.Wikipedia.SquarePacking
+Upstream definition: SquarePacking.UnitSquare from FormalConjectures.Wikipedia.SquarePacking
+Upstream definition: SquarePacking.Circle from FormalConjectures.Wikipedia.SquarePacking
+Upstream definition: SquarePacking.Packing from FormalConjectures.Wikipedia.SquarePacking
+Axiom check passed: ThreeSquares.CenterElimination.Compressed.global_lower_bound: [propext,
+ Classical.choice,
+ Quot.sound]
+Axiom check passed: ThreeSquares.CenterElimination.Compressed.least_three_square_packing_in_circle: [propext,
+ Classical.choice,
+ Quot.sound]
+Upstream negative control contains sorryAx: SquarePacking.three_square_packing_in_circle_bound
+Upstream negative control contains sorryAx: SquarePacking.least_three_square_packing_in_circle
+Compressed result proves the actual FC IsLeast set with answer 5 * NNReal.sqrt 17 / 16

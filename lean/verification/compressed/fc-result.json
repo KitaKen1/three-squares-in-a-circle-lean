@@ -1,0 +1,484 @@
+{
+  "scope": "Full compressed proof against real pinned FC definitions; existing dependencies cached",
+  "complete": true,
+  "lean": "leanprover/lean4:v4.33.1",
+  "modules": 21,
+  "module_wall_seconds_sum": 768.5090000000001,
+  "max_rss_bytes": 6457016320,
+  "audits": [
+    [
+      "ThreeSquares.CenterElimination.Compressed.global_lower_bound",
+      "propext,\n Classical.choice,\n Quot.sound"
+    ],
+    [
+      "ThreeSquares.CenterElimination.Compressed.least_three_square_packing_in_circle",
+      "propext,\n Classical.choice,\n Quot.sound"
+    ]
+  ],
+  "compressed_source_sha256": {
+    "lean/ThreeSquares/Compressed/Bernstein.lean": "66162d04f234e53018ad40ebb3bb1c521977b1501d87847636d75889e6847e49",
+    "lean/ThreeSquares/Compressed/Bridge.lean": "b5e23e289d3c512038f87bd737c500a1ab23045d5d8f373932d980f6d50f9c14",
+    "lean/ThreeSquares/Compressed/Domains.lean": "122fb9301cf97e4785dca2e6724d6c8321ff21aaf3ea57d70d3950b2d3b05842",
+    "lean/ThreeSquares/Compressed/EditorInfo.lean": "8b4eb70226f9b5463cd71bf71334f705c5b8511b3aa1c024d1e46ef9e66d9aa8",
+    "lean/ThreeSquares/Compressed/Main.lean": "2ddfc6ed2982bb14c175d269dcedac67039a947c50df2daae824240e8e12b976",
+    "lean/ThreeSquares/Compressed/Part00.lean": "32d540aae048c2d60d2a3f4c0c75e15f0240e30f984fe3e824abe2e1cb0ee9e5",
+    "lean/ThreeSquares/Compressed/Part01.lean": "3f97ed755f638848825fae7d24d9a3353c2ffdf55d41de32bf76549ca29b626a",
+    "lean/ThreeSquares/Compressed/Part02.lean": "5f6bac3c31ec053cc19cc8270ea407785bc6c0ad25e72d37b9fb71fcfbd96384",
+    "lean/ThreeSquares/Compressed/Part03.lean": "bab9bd8d09e4a71b49aa584fd108bd769e6911e81cc430575165e502f7e0e1f0",
+    "lean/ThreeSquares/Compressed/Part04.lean": "45dd0f3f650f7432ef85167ce6348a7221b132bf38f549f228c50c7cf0c45650",
+    "lean/ThreeSquares/Compressed/Part05.lean": "77a9a4ccf6914c67f0ed4968f3937a9f2d912ef3cf02f169df0ea7a382a08943",
+    "lean/ThreeSquares/Compressed/Part06.lean": "91fbf0fd3e3ad441a89895804961291aaf962922bf9e4086cfddcfaa88795564",
+    "lean/ThreeSquares/Compressed/Part07.lean": "1451431a02c7e9256c22f2347abf4710fe97621bd9b9a1b710041731da90fadc",
+    "lean/ThreeSquares/Compressed/Part08.lean": "d1361ca4f0054485fa277dcd09127a52d4f9bc97c41a332bc85c8737b74a7cb0",
+    "lean/ThreeSquares/Compressed/Part09.lean": "b9d98bbce78a3466a97276b4916079bc0b92a9941e71a1f0d9f3cfa0efeda75c",
+    "lean/ThreeSquares/Compressed/Part10.lean": "aace46414d4237e0cda9cedfd387fe928a6c011cb3583f941aa533121cf39a39",
+    "lean/ThreeSquares/Compressed/Part11.lean": "b950da47c548ec1b4f55233b35ed63d1802b8ad8e9956e12f4a050de64810829",
+    "lean/ThreeSquares/Compressed/Part12.lean": "1657cdb04a802548a59a88e3bebb861befd556f01e224ce3f153336a1e560c24",
+    "lean/ThreeSquares/Compressed/Part13.lean": "1935f7dddd0ebda84360adb4b4358d8665525d9ce5e9e31d7a8a453b76fece84",
+    "lean/ThreeSquares/Compressed/Part14.lean": "1c484e965c2d0ea3a61322ec786ab9d8ebf2d0a007862b21098db52ff16ed54c",
+    "lean/ThreeSquares/Compressed/Part15.lean": "0abb0154fa302f1811b9f25c1e3650ec33299c6871401cc63caf4310af208a20"
+  },
+  "checks": [
+    {
+      "name": "ThreeSquares/Compressed/EditorInfo",
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "-M6144",
+        "-R",
+        "/Users/kenta/Dropbox/Intellectual Moonshine/?AI\u6570\u5b66/wiki square paking min3/research/compressed-20260924",
+        "-o",
+        "/Users/kenta/Dropbox/Intellectual Moonshine/?AI\u6570\u5b66/wiki square paking min3/lean/.lake/build/lib/lean/ThreeSquares/Compressed/EditorInfo.olean",
+        "/Users/kenta/Dropbox/Intellectual Moonshine/?AI\u6570\u5b66/wiki square paking min3/research/compressed-20260924/ThreeSquares/Compressed/EditorInfo.lean"
+      ],
+      "threads": 1,
+      "exit": 0,
+      "timed_out": false,
+      "wall_seconds": 4.196,
+      "max_rss_bytes": 1331511296,
+      "source_sha256": "8b4eb70226f9b5463cd71bf71334f705c5b8511b3aa1c024d1e46ef9e66d9aa8",
+      "log": "EditorInfo.log"
+    },
+    {
+      "name": "ThreeSquares/Compressed/Bridge",
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "-M6144",
+        "-R",
+        "/Users/kenta/Dropbox/Intellectual Moonshine/?AI\u6570\u5b66/wiki square paking min3/research/compressed-20260924",
+        "-o",
+        "/Users/kenta/Dropbox/Intellectual Moonshine/?AI\u6570\u5b66/wiki square paking min3/lean/.lake/build/lib/lean/ThreeSquares/Compressed/Bridge.olean",
+        "/Users/kenta/Dropbox/Intellectual Moonshine/?AI\u6570\u5b66/wiki square paking min3/research/compressed-20260924/ThreeSquares/Compressed/Bridge.lean"
+      ],
+      "threads": 1,
+      "exit": 0,
+      "timed_out": false,
+      "wall_seconds": 47.036,
+      "max_rss_bytes": 6177636352,
+      "source_sha256": "b5e23e289d3c512038f87bd737c500a1ab23045d5d8f373932d980f6d50f9c14",
+      "log": "Bridge.log"
+    },
+    {
+      "name": "ThreeSquares/Compressed/Bernstein",
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "-M6144",
+        "-R",
+        "/Users/kenta/Dropbox/Intellectual Moonshine/?AI\u6570\u5b66/wiki square paking min3/research/compressed-20260924",
+        "-o",
+        "/Users/kenta/Dropbox/Intellectual Moonshine/?AI\u6570\u5b66/wiki square paking min3/lean/.lake/build/lib/lean/ThreeSquares/Compressed/Bernstein.olean",
+        "/Users/kenta/Dropbox/Intellectual Moonshine/?AI\u6570\u5b66/wiki square paking min3/research/compressed-20260924/ThreeSquares/Compressed/Bernstein.lean"
+      ],
+      "threads": 1,
+      "exit": 0,
+      "timed_out": false,
+      "wall_seconds": 41.387,
+      "max_rss_bytes": 6377537536,
+      "source_sha256": "66162d04f234e53018ad40ebb3bb1c521977b1501d87847636d75889e6847e49",
+      "log": "Bernstein.log"
+    },
+    {
+      "name": "ThreeSquares/Compressed/Domains",
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "-M6144",
+        "-R",
+        "/Users/kenta/Dropbox/Intellectual Moonshine/?AI\u6570\u5b66/wiki square paking min3/research/compressed-20260924",
+        "-o",
+        "/Users/kenta/Dropbox/Intellectual Moonshine/?AI\u6570\u5b66/wiki square paking min3/lean/.lake/build/lib/lean/ThreeSquares/Compressed/Domains.olean",
+        "/Users/kenta/Dropbox/Intellectual Moonshine/?AI\u6570\u5b66/wiki square paking min3/research/compressed-20260924/ThreeSquares/Compressed/Domains.lean"
+      ],
+      "threads": 1,
+      "exit": 0,
+      "timed_out": false,
+      "wall_seconds": 13.245,
+      "max_rss_bytes": 6148718592,
+      "source_sha256": "122fb9301cf97e4785dca2e6724d6c8321ff21aaf3ea57d70d3950b2d3b05842",
+      "log": "Domains.log"
+    },
+    {
+      "name": "ThreeSquares/Compressed/Part00",
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "-M6144",
+        "-R",
+        "/Users/kenta/Dropbox/Intellectual Moonshine/?AI\u6570\u5b66/wiki square paking min3/research/compressed-20260924",
+        "-o",
+        "/Users/kenta/Dropbox/Intellectual Moonshine/?AI\u6570\u5b66/wiki square paking min3/lean/.lake/build/lib/lean/ThreeSquares/Compressed/Part00.olean",
+        "/Users/kenta/Dropbox/Intellectual Moonshine/?AI\u6570\u5b66/wiki square paking min3/research/compressed-20260924/ThreeSquares/Compressed/Part00.lean"
+      ],
+      "threads": 1,
+      "exit": 0,
+      "timed_out": false,
+      "wall_seconds": 34.038,
+      "max_rss_bytes": 6212190208,
+      "source_sha256": "32d540aae048c2d60d2a3f4c0c75e15f0240e30f984fe3e824abe2e1cb0ee9e5",
+      "log": "Part00.log"
+    },
+    {
+      "name": "ThreeSquares/Compressed/Part01",
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "-M6144",
+        "-R",
+        "/Users/kenta/Dropbox/Intellectual Moonshine/?AI\u6570\u5b66/wiki square paking min3/research/compressed-20260924",
+        "-o",
+        "/Users/kenta/Dropbox/Intellectual Moonshine/?AI\u6570\u5b66/wiki square paking min3/lean/.lake/build/lib/lean/ThreeSquares/Compressed/Part01.olean",
+        "/Users/kenta/Dropbox/Intellectual Moonshine/?AI\u6570\u5b66/wiki square paking min3/research/compressed-20260924/ThreeSquares/Compressed/Part01.lean"
+      ],
+      "threads": 1,
+      "exit": 0,
+      "timed_out": false,
+      "wall_seconds": 31.309,
+      "max_rss_bytes": 6257721344,
+      "source_sha256": "3f97ed755f638848825fae7d24d9a3353c2ffdf55d41de32bf76549ca29b626a",
+      "log": "Part01.log"
+    },
+    {
+      "name": "ThreeSquares/Compressed/Part02",
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "-M6144",
+        "-R",
+        "/Users/kenta/Dropbox/Intellectual Moonshine/?AI\u6570\u5b66/wiki square paking min3/research/compressed-20260924",
+        "-o",
+        "/Users/kenta/Dropbox/Intellectual Moonshine/?AI\u6570\u5b66/wiki square paking min3/lean/.lake/build/lib/lean/ThreeSquares/Compressed/Part02.olean",
+        "/Users/kenta/Dropbox/Intellectual Moonshine/?AI\u6570\u5b66/wiki square paking min3/research/compressed-20260924/ThreeSquares/Compressed/Part02.lean"
+      ],
+      "threads": 1,
+      "exit": 0,
+      "timed_out": false,
+      "wall_seconds": 47.718,
+      "max_rss_bytes": 6271352832,
+      "source_sha256": "5f6bac3c31ec053cc19cc8270ea407785bc6c0ad25e72d37b9fb71fcfbd96384",
+      "log": "Part02.log"
+    },
+    {
+      "name": "ThreeSquares/Compressed/Part03",
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "-M6144",
+        "-R",
+        "/Users/kenta/Dropbox/Intellectual Moonshine/?AI\u6570\u5b66/wiki square paking min3/research/compressed-20260924",
+        "-o",
+        "/Users/kenta/Dropbox/Intellectual Moonshine/?AI\u6570\u5b66/wiki square paking min3/lean/.lake/build/lib/lean/ThreeSquares/Compressed/Part03.olean",
+        "/Users/kenta/Dropbox/Intellectual Moonshine/?AI\u6570\u5b66/wiki square paking min3/research/compressed-20260924/ThreeSquares/Compressed/Part03.lean"
+      ],
+      "threads": 1,
+      "exit": 0,
+      "timed_out": false,
+      "wall_seconds": 44.973,
+      "max_rss_bytes": 6312738816,
+      "source_sha256": "bab9bd8d09e4a71b49aa584fd108bd769e6911e81cc430575165e502f7e0e1f0",
+      "log": "Part03.log"
+    },
+    {
+      "name": "ThreeSquares/Compressed/Part04",
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "-M6144",
+        "-R",
+        "/Users/kenta/Dropbox/Intellectual Moonshine/?AI\u6570\u5b66/wiki square paking min3/research/compressed-20260924",
+        "-o",
+        "/Users/kenta/Dropbox/Intellectual Moonshine/?AI\u6570\u5b66/wiki square paking min3/lean/.lake/build/lib/lean/ThreeSquares/Compressed/Part04.olean",
+        "/Users/kenta/Dropbox/Intellectual Moonshine/?AI\u6570\u5b66/wiki square paking min3/research/compressed-20260924/ThreeSquares/Compressed/Part04.lean"
+      ],
+      "threads": 1,
+      "exit": 0,
+      "timed_out": false,
+      "wall_seconds": 36.504,
+      "max_rss_bytes": 6191235072,
+      "source_sha256": "45dd0f3f650f7432ef85167ce6348a7221b132bf38f549f228c50c7cf0c45650",
+      "log": "Part04.log"
+    },
+    {
+      "name": "ThreeSquares/Compressed/Part05",
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "-M6144",
+        "-R",
+        "/Users/kenta/Dropbox/Intellectual Moonshine/?AI\u6570\u5b66/wiki square paking min3/research/compressed-20260924",
+        "-o",
+        "/Users/kenta/Dropbox/Intellectual Moonshine/?AI\u6570\u5b66/wiki square paking min3/lean/.lake/build/lib/lean/ThreeSquares/Compressed/Part05.olean",
+        "/Users/kenta/Dropbox/Intellectual Moonshine/?AI\u6570\u5b66/wiki square paking min3/research/compressed-20260924/ThreeSquares/Compressed/Part05.lean"
+      ],
+      "threads": 1,
+      "exit": 0,
+      "timed_out": false,
+      "wall_seconds": 44.384,
+      "max_rss_bytes": 6236356608,
+      "source_sha256": "77a9a4ccf6914c67f0ed4968f3937a9f2d912ef3cf02f169df0ea7a382a08943",
+      "log": "Part05.log"
+    },
+    {
+      "name": "ThreeSquares/Compressed/Part06",
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "-M6144",
+        "-R",
+        "/Users/kenta/Dropbox/Intellectual Moonshine/?AI\u6570\u5b66/wiki square paking min3/research/compressed-20260924",
+        "-o",
+        "/Users/kenta/Dropbox/Intellectual Moonshine/?AI\u6570\u5b66/wiki square paking min3/lean/.lake/build/lib/lean/ThreeSquares/Compressed/Part06.olean",
+        "/Users/kenta/Dropbox/Intellectual Moonshine/?AI\u6570\u5b66/wiki square paking min3/research/compressed-20260924/ThreeSquares/Compressed/Part06.lean"
+      ],
+      "threads": 1,
+      "exit": 0,
+      "timed_out": false,
+      "wall_seconds": 31.903,
+      "max_rss_bytes": 6212829184,
+      "source_sha256": "91fbf0fd3e3ad441a89895804961291aaf962922bf9e4086cfddcfaa88795564",
+      "log": "Part06.log"
+    },
+    {
+      "name": "ThreeSquares/Compressed/Part07",
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "-M6144",
+        "-R",
+        "/Users/kenta/Dropbox/Intellectual Moonshine/?AI\u6570\u5b66/wiki square paking min3/research/compressed-20260924",
+        "-o",
+        "/Users/kenta/Dropbox/Intellectual Moonshine/?AI\u6570\u5b66/wiki square paking min3/lean/.lake/build/lib/lean/ThreeSquares/Compressed/Part07.olean",
+        "/Users/kenta/Dropbox/Intellectual Moonshine/?AI\u6570\u5b66/wiki square paking min3/research/compressed-20260924/ThreeSquares/Compressed/Part07.lean"
+      ],
+      "threads": 1,
+      "exit": 0,
+      "timed_out": false,
+      "wall_seconds": 54.269,
+      "max_rss_bytes": 6134169600,
+      "source_sha256": "1451431a02c7e9256c22f2347abf4710fe97621bd9b9a1b710041731da90fadc",
+      "log": "Part07.log"
+    },
+    {
+      "name": "ThreeSquares/Compressed/Part08",
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "-M6144",
+        "-R",
+        "/Users/kenta/Dropbox/Intellectual Moonshine/?AI\u6570\u5b66/wiki square paking min3/research/compressed-20260924",
+        "-o",
+        "/Users/kenta/Dropbox/Intellectual Moonshine/?AI\u6570\u5b66/wiki square paking min3/lean/.lake/build/lib/lean/ThreeSquares/Compressed/Part08.olean",
+        "/Users/kenta/Dropbox/Intellectual Moonshine/?AI\u6570\u5b66/wiki square paking min3/research/compressed-20260924/ThreeSquares/Compressed/Part08.lean"
+      ],
+      "threads": 1,
+      "exit": 0,
+      "timed_out": false,
+      "wall_seconds": 44.817,
+      "max_rss_bytes": 6257491968,
+      "source_sha256": "d1361ca4f0054485fa277dcd09127a52d4f9bc97c41a332bc85c8737b74a7cb0",
+      "log": "Part08.log"
+    },
+    {
+      "name": "ThreeSquares/Compressed/Part09",
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "-M6144",
+        "-R",
+        "/Users/kenta/Dropbox/Intellectual Moonshine/?AI\u6570\u5b66/wiki square paking min3/research/compressed-20260924",
+        "-o",
+        "/Users/kenta/Dropbox/Intellectual Moonshine/?AI\u6570\u5b66/wiki square paking min3/lean/.lake/build/lib/lean/ThreeSquares/Compressed/Part09.olean",
+        "/Users/kenta/Dropbox/Intellectual Moonshine/?AI\u6570\u5b66/wiki square paking min3/research/compressed-20260924/ThreeSquares/Compressed/Part09.lean"
+      ],
+      "threads": 1,
+      "exit": 0,
+      "timed_out": false,
+      "wall_seconds": 46.174,
+      "max_rss_bytes": 6156353536,
+      "source_sha256": "b9d98bbce78a3466a97276b4916079bc0b92a9941e71a1f0d9f3cfa0efeda75c",
+      "log": "Part09.log"
+    },
+    {
+      "name": "ThreeSquares/Compressed/Part10",
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "-M6144",
+        "-R",
+        "/Users/kenta/Dropbox/Intellectual Moonshine/?AI\u6570\u5b66/wiki square paking min3/research/compressed-20260924",
+        "-o",
+        "/Users/kenta/Dropbox/Intellectual Moonshine/?AI\u6570\u5b66/wiki square paking min3/lean/.lake/build/lib/lean/ThreeSquares/Compressed/Part10.olean",
+        "/Users/kenta/Dropbox/Intellectual Moonshine/?AI\u6570\u5b66/wiki square paking min3/research/compressed-20260924/ThreeSquares/Compressed/Part10.lean"
+      ],
+      "threads": 1,
+      "exit": 0,
+      "timed_out": false,
+      "wall_seconds": 47.283,
+      "max_rss_bytes": 6300663808,
+      "source_sha256": "aace46414d4237e0cda9cedfd387fe928a6c011cb3583f941aa533121cf39a39",
+      "log": "Part10.log"
+    },
+    {
+      "name": "ThreeSquares/Compressed/Part11",
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "-M6144",
+        "-R",
+        "/Users/kenta/Dropbox/Intellectual Moonshine/?AI\u6570\u5b66/wiki square paking min3/research/compressed-20260924",
+        "-o",
+        "/Users/kenta/Dropbox/Intellectual Moonshine/?AI\u6570\u5b66/wiki square paking min3/lean/.lake/build/lib/lean/ThreeSquares/Compressed/Part11.olean",
+        "/Users/kenta/Dropbox/Intellectual Moonshine/?AI\u6570\u5b66/wiki square paking min3/research/compressed-20260924/ThreeSquares/Compressed/Part11.lean"
+      ],
+      "threads": 1,
+      "exit": 0,
+      "timed_out": false,
+      "wall_seconds": 33.058,
+      "max_rss_bytes": 6282117120,
+      "source_sha256": "b950da47c548ec1b4f55233b35ed63d1802b8ad8e9956e12f4a050de64810829",
+      "log": "Part11.log"
+    },
+    {
+      "name": "ThreeSquares/Compressed/Part12",
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "-M6144",
+        "-R",
+        "/Users/kenta/Dropbox/Intellectual Moonshine/?AI\u6570\u5b66/wiki square paking min3/research/compressed-20260924",
+        "-o",
+        "/Users/kenta/Dropbox/Intellectual Moonshine/?AI\u6570\u5b66/wiki square paking min3/lean/.lake/build/lib/lean/ThreeSquares/Compressed/Part12.olean",
+        "/Users/kenta/Dropbox/Intellectual Moonshine/?AI\u6570\u5b66/wiki square paking min3/research/compressed-20260924/ThreeSquares/Compressed/Part12.lean"
+      ],
+      "threads": 1,
+      "exit": 0,
+      "timed_out": false,
+      "wall_seconds": 35.856,
+      "max_rss_bytes": 6292717568,
+      "source_sha256": "1657cdb04a802548a59a88e3bebb861befd556f01e224ce3f153336a1e560c24",
+      "log": "Part12.log"
+    },
+    {
+      "name": "ThreeSquares/Compressed/Part13",
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "-M6144",
+        "-R",
+        "/Users/kenta/Dropbox/Intellectual Moonshine/?AI\u6570\u5b66/wiki square paking min3/research/compressed-20260924",
+        "-o",
+        "/Users/kenta/Dropbox/Intellectual Moonshine/?AI\u6570\u5b66/wiki square paking min3/lean/.lake/build/lib/lean/ThreeSquares/Compressed/Part13.olean",
+        "/Users/kenta/Dropbox/Intellectual Moonshine/?AI\u6570\u5b66/wiki square paking min3/research/compressed-20260924/ThreeSquares/Compressed/Part13.lean"
+      ],
+      "threads": 1,
+      "exit": 0,
+      "timed_out": false,
+      "wall_seconds": 37.561,
+      "max_rss_bytes": 6284836864,
+      "source_sha256": "1935f7dddd0ebda84360adb4b4358d8665525d9ce5e9e31d7a8a453b76fece84",
+      "log": "Part13.log"
+    },
+    {
+      "name": "ThreeSquares/Compressed/Part14",
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "-M6144",
+        "-R",
+        "/Users/kenta/Dropbox/Intellectual Moonshine/?AI\u6570\u5b66/wiki square paking min3/research/compressed-20260924",
+        "-o",
+        "/Users/kenta/Dropbox/Intellectual Moonshine/?AI\u6570\u5b66/wiki square paking min3/lean/.lake/build/lib/lean/ThreeSquares/Compressed/Part14.olean",
+        "/Users/kenta/Dropbox/Intellectual Moonshine/?AI\u6570\u5b66/wiki square paking min3/research/compressed-20260924/ThreeSquares/Compressed/Part14.lean"
+      ],
+      "threads": 1,
+      "exit": 0,
+      "timed_out": false,
+      "wall_seconds": 33.659,
+      "max_rss_bytes": 6289391616,
+      "source_sha256": "1c484e965c2d0ea3a61322ec786ab9d8ebf2d0a007862b21098db52ff16ed54c",
+      "log": "Part14.log"
+    },
+    {
+      "name": "ThreeSquares/Compressed/Part15",
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "-M6144",
+        "-R",
+        "/Users/kenta/Dropbox/Intellectual Moonshine/?AI\u6570\u5b66/wiki square paking min3/research/compressed-20260924",
+        "-o",
+        "/Users/kenta/Dropbox/Intellectual Moonshine/?AI\u6570\u5b66/wiki square paking min3/lean/.lake/build/lib/lean/ThreeSquares/Compressed/Part15.olean",
+        "/Users/kenta/Dropbox/Intellectual Moonshine/?AI\u6570\u5b66/wiki square paking min3/research/compressed-20260924/ThreeSquares/Compressed/Part15.lean"
+      ],
+      "threads": 1,
+      "exit": 0,
+      "timed_out": false,
+      "wall_seconds": 41.267,
+      "max_rss_bytes": 6263504896,
+      "source_sha256": "0abb0154fa302f1811b9f25c1e3650ec33299c6871401cc63caf4310af208a20",
+      "log": "Part15.log"
+    },
+    {
+      "name": "ThreeSquares/Compressed/Main",
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "-M6144",
+        "-R",
+        "/Users/kenta/Dropbox/Intellectual Moonshine/?AI\u6570\u5b66/wiki square paking min3/research/compressed-20260924",
+        "-o",
+        "/Users/kenta/Dropbox/Intellectual Moonshine/?AI\u6570\u5b66/wiki square paking min3/lean/.lake/build/lib/lean/ThreeSquares/Compressed/Main.olean",
+        "/Users/kenta/Dropbox/Intellectual Moonshine/?AI\u6570\u5b66/wiki square paking min3/research/compressed-20260924/ThreeSquares/Compressed/Main.lean"
+      ],
+      "threads": 1,
+      "exit": 0,
+      "timed_out": false,
+      "wall_seconds": 17.872,
+      "max_rss_bytes": 6457016320,
+      "source_sha256": "2ddfc6ed2982bb14c175d269dcedac67039a947c50df2daae824240e8e12b976",
+      "log": "Main.log"
+    }
+  ]
+}
