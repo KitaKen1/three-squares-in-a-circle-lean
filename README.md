@@ -7,6 +7,12 @@ $$
 R_{\min}=\frac{5\sqrt{17}}{16}.
 $$
 
+> **Earlier Lean proof.** [The-Anh Vu-Le's Lean 4 formalization](https://github.com/vltanh/lean4-squares-in-circles)
+> established this exact minimum before this repository was published. This
+> repository separately proves the precise Formal Conjectures statement using
+> the Formal Conjectures definitions. See the
+> [September 2026 timeline and comparison](#appendix-september-2026-publication-timeline-ai-generated).
+
 The `lean/` project proves the statement against the definitions in the pinned
 [Formal Conjectures square-packing module](https://github.com/google-deepmind/formal-conjectures/blob/8927a585c5d522fc132d7ea6488fcd9e30ccd80e/FormalConjectures/Wikipedia/SquarePacking.lean).
 The proof covers every placement, including asymmetric ones. Its compressed
@@ -144,10 +150,15 @@ theorem over the actual FC definitions.
   used for the FC project. The separate
   [`lean4web/lean-toolchain`](lean4web/lean-toolchain) selects 4.35.0-rc2.
 - [Erich Friedman's *Squares in Circles*](https://erich-friedman.github.io/packing/squincir/)
-  records the radius $5\sqrt{17}/16$ for a three-square packing and attributes
-  the arrangement to 1997. Its construction supplies the known upper-bound
-  target; the upper bound is checked again in
+  records the radius $5\sqrt{17}/16$ and now credits The-Anh Vu-Le with proving
+  optimality in September 2026. The [page update](https://github.com/erich-friedman/erich-friedman.github.io/commit/1998875c5c9a2c01d4c374a3f200b6f970a628fb)
+  replaced its earlier attribution of the 1997 construction to Friedman.
+  The upper bound is checked again in
   [`UpperBound.lean`](lean/ThreeSquares/UpperBound.lean).
+- [The-Anh Vu-Le's *Squares in Circles* Lean repository](https://github.com/vltanh/lean4-squares-in-circles)
+  proves the exact three-square optimum and, in its current version, uniqueness
+  of the optimal packing. It formalizes squares using centers and orthonormal
+  frames; this repository proves the FC statement using FC's own definitions.
 - [Montanher, Neumaier, Markót, Domes, and Schichl,
   *Rigorous packing of unit squares into a circle*, Theorem 2 and Table 6](https://link.springer.com/article/10.1007/s10898-018-0711-5)
   prove a rigorous interval for the optimum and enclose every optimal
@@ -189,8 +200,34 @@ three-square case as solved. These are substantial prior results.
 | --- | --- |
 | Friedman's exact candidate packing | A Lean proof that its radius is minimal among **all** freely placed three-square packings. |
 | Montanher et al.'s rigorous interval and four boxes | An exact equality $r_3=5\sqrt{17}/16$ in Lean. The global lower-bound proof uses its own center-elimination and rational certificates; it does not import the paper's interval boxes or computation as axioms. |
+| Vu-Le's September 2026 Lean proof of the exact radius and uniqueness | A separate proof of the pinned FC `IsLeast` statement using FC's `Packing`, `UnitSquare`, and `Circle` definitions. |
 | The pinned FC `IsLeast` conjecture | A separately named proof using the actual FC definitions, with the feasible set and final axiom dependencies audited. |
 
-The published interval leaves a strictly positive gap between its lower
-endpoint and the exact candidate. This repository closes that gap for the
-stated FC minimum.
+The 2019 interval leaves a strictly positive gap between its lower endpoint
+and the exact candidate. Both Vu-Le's Lean development and this repository
+prove the exact value; this repository checks the stated FC minimum directly.
+
+## Appendix: September 2026 publication timeline (AI generated)
+
+The dates below are from public GitHub records. Repository creation and commit
+timestamps do not establish when private work began or when a repository first
+became publicly visible. Times are given in UTC and Japan Standard Time (JST).
+
+| Event | UTC | JST | Record |
+| --- | --- | --- | --- |
+| Vu-Le's repository was created. | 22 Sep 2026, 15:21 | 23 Sep, 00:21 | [GitHub repository metadata](https://api.github.com/repos/vltanh/lean4-squares-in-circles) |
+| Its first commit already included the exact $n=3$ optimality theorem and an attaining construction. | 22 Sep 2026, 19:56 (committer time) | 23 Sep, 04:56 | [Initial commit](https://github.com/vltanh/lean4-squares-in-circles/commit/8c91723c4d2e53532b86191a9cbb06ee5cfe6212) |
+| Friedman changed the $n=3$ entry from the 1997 construction credit to “Proved by The-Anh Vu-Le in September 2026.” | 23 Sep 2026, 18:18 | 24 Sep, 03:18 | [Page update](https://github.com/erich-friedman/erich-friedman.github.io/commit/1998875c5c9a2c01d4c374a3f200b6f970a628fb) |
+| This repository was created; the [FC pull request #6524](https://github.com/google-deepmind/formal-conjectures/pull/6524) followed about 14 minutes later. | 23 Sep 2026, 23:31 | 24 Sep, 08:31 | [GitHub repository metadata](https://api.github.com/repos/KitaKen1/three-squares-in-a-circle-lean) |
+
+The Friedman timestamp is the source commit, not a verified website deployment
+time. The page's introductory sentence still lists only $n=1,2,4$ as proved,
+even though its $n=3$ and $n=5$ entries now credit Vu-Le.
+
+Kenta Kitamura learned of Vu-Le's work after opening the FC pull request.
+Vu-Le's current Lean development proves optimality and uniqueness for
+$n=1,\ldots,5$ in its center-and-frame model of closed squares and disks.
+This repository proves the $n=3$ minimum directly with FC's open-set squares,
+disk, and isometric-embedding packing definition. The two Lean developments
+use different statements and proof methods; this repository does not contain
+a formal translation between their models.
